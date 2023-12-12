@@ -1,0 +1,25 @@
+GET http://localhost:8081/user/test
+
+<> 2023-12-12T215120.200.txt
+
+###
+GET http://localhost:8081/book/create
+Content-Type: application/json
+
+{
+  "name": "Название книги",
+  "author": "Автор книги",
+  "productionYear": "Год издания",
+  "rate": 4.5,
+  "description": "Описание книги",
+  "image": "ссылка на изображение",
+  "file": "ссылка на файл книги",
+  "view": 1000,
+  "markFinishFlag": true,
+  "markReadFlag": false,
+  "currentPage": 50,
+  "genre": "Жанр книги"
+}
+
+<> 2023-12-12T215207.200.json
+<> 2023-12-12T215155.404.html
