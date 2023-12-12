@@ -17,7 +17,7 @@ data class Book(
     @Column(nullable = false) var markReadFlag: Boolean,
     @Column(nullable = false) var currentPage: Int,
     @Column(nullable = false) val genre: String,
-    @ManyToMany
+    @OneToMany
     @Column(nullable = true) var reviews: MutableList<Review>?,
     @Id @GeneratedValue var id: Long? = null
 )
