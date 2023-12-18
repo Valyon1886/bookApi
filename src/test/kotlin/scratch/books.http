@@ -1,9 +1,9 @@
-GET http://localhost:8081/user/test
+POST http://localhost:8081/user/test
 
 <> 2023-12-12T215120.200.txt
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -18,7 +18,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -33,7 +33,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -48,7 +48,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -63,7 +63,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -78,7 +78,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -93,7 +93,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -108,7 +108,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -123,7 +123,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -139,7 +139,7 @@ Content-Type: application/json
 
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -154,7 +154,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -169,7 +169,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -184,7 +184,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -199,7 +199,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -214,7 +214,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -229,7 +229,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -244,7 +244,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -259,7 +259,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -274,7 +274,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -289,7 +289,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081/book/create
+POST http://localhost:8081/book/create
 Content-Type: application/json
 
 {
@@ -306,7 +306,7 @@ Content-Type: application/json
 <> 2023-12-12T215155.404.html
 
 ###
-GET http://localhost:8081/desk/add
+POST http://localhost:8081/desk/add
 Content-Type: application/json
 
 {

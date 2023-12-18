@@ -30,12 +30,12 @@ class UserService (private val userRepository: UserRepository, private val deskS
 
     fun getUsers(): List<User> = userRepository.findAll().toList()
 
-    fun deleteUser(id: Long): String {
+    fun deleteUser(id: Int): String {
         userRepository.deleteById(id)
         return "OK"//Response.isOk();  //  TODO Сделать через json
     }
 
-    fun addBookToDeskById(userId: Long, deskId: Long, book: Book): Book{
+    fun addBookToDeskById(userId: Int, deskId: Long, book: Book): Book{
         var updateUser = userRepository.findByIdOrNull(userId)
         if(updateUser!=null) {
             var newDesks:MutableList<DeskOfBook>? = updateUser.shelf
@@ -52,5 +52,5 @@ class UserService (private val userRepository: UserRepository, private val deskS
         return book;
     }
 
-    fun findUser(id: Long): User? = userRepository.findByIdOrNull(id)
+    fun findUser(id: Int): User? = userRepository.findByIdOrNull(id)
 }
