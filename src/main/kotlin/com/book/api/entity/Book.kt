@@ -1,6 +1,7 @@
 package com.book.api.entity
 
 import jakarta.persistence.*
+import org.hibernate.annotations.Type
 
 @Entity
 @Table(name = "book")
@@ -9,7 +10,7 @@ data class Book(
     @Column(nullable = false) val author: String,
 //    @Column(nullable = false) val productionYear: String,
     @Column(nullable = true) var rate: Int,
-    @Column(nullable = true) val description: String,
+    @Lob @Column(nullable = true) val description: String,
     @Column(nullable = true) val image: String,
     @Column(nullable = false) val file: String,
 //    @Column(nullable = false) var view: Long,
