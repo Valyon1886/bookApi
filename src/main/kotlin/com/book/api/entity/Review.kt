@@ -7,10 +7,10 @@ import jakarta.persistence.*
 @Table(name="review")
 data class Review(
     @Column(nullable = false) var reviewText: String,
-    @Column(nullable = false) var rating: Double,
+    @Column(nullable = false) var rating: Int,
     @Column(nullable = false) val reviewDate: String,
     @Id @GeneratedValue val id: Long? = null
 )
 {
-    constructor() : this("test", 11.2, "123")
+    constructor() : this("test", 1, "123")
 }

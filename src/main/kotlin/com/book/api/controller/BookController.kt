@@ -11,55 +11,61 @@ import org.springframework.web.bind.annotation.*
 @RequestMapping("/book")
 class BookController(private val bookService: BookService) {
 
-    @GetMapping("/create")
+    @PostMapping("/create")
     @ResponseBody
     fun createBook(@RequestBody book: Book): Book {
         return bookService.createBook(book)
     }
 
-    @GetMapping("/{id}")
+    @PostMapping("/{id}")
     @ResponseBody
     fun findBook(@PathVariable id: Long): Book {
         return bookService.findBook(id)
     }
 
-    @GetMapping("/add")
+    @PostMapping("/getAll")
+    @ResponseBody
+    fun getAllBook(): List<Book> {
+        return bookService.getAllBook()
+    }
+
+    @PostMapping("/add")
     @ResponseBody
     fun addBook(@RequestBody book: Book): Book {
         return bookService.add(book)
     }
 
-    @GetMapping("update/{id}")
+    @PostMapping("update/{id}")
     @ResponseBody
     fun updateBook(@PathVariable id: Long, @RequestBody book: Book): Book {
         return bookService.updateBook(id, book)
     }
 
-    @GetMapping("/{id}/addReview")
+    @PostMapping("/addReview/{id}")
     @ResponseBody
     fun addReviewToBook(@PathVariable id: Long, @RequestBody review: Review): Review {
         return bookService.addReviewToBook(id, review)
     }
 
-    @GetMapping("/findByName/{name}")
+    @PostMapping("/findByName/{name}")
     @ResponseBody
     fun getBookByName(@PathVariable name: String): Book {
         return bookService.getBookByName(name)
     }
 
-    @GetMapping("/findByAuthor/{author}")
+    @PostMapping("/findByAuthor/{author}")
     @ResponseBody
     fun getBookByAuthor(@PathVariable author: String): Book {
         return bookService.getBookByAuthor(author)
     }
 
-    @GetMapping("/{id}/startReading")
+    @PostMapping("/{id}/startReading")
     @ResponseBody
     fun startReading(@PathVariable id: Long): Book {
         return bookService.startReading(id)
     }
 
-    @GetMapping("/{id}/endReading")
+    @PostMapping("/{id}/endReading")
     @ResponseBody
     fun endReading(@PathVariable id: Long): Book {
         return bookService.endReading(id)

@@ -14,6 +14,8 @@ class BookService(private val bookRepository: BookRepository, private val review
         return bookRepository.save(book)
     }
 
+    fun getAllBook(): List<Book> = bookRepository.findAll()
+
     fun findBook(id: Long): Book {
         return bookRepository.findById(id).orElseThrow { EntityNotFoundException("Book not found with id: $id") }
     }
@@ -25,10 +27,10 @@ class BookService(private val bookRepository: BookRepository, private val review
     fun updateBook(id: Long, book: Book): Book {
         return bookRepository.findById(id).map {
             it.rate = book.rate
-            it.view = book.view
+//            it.view = book.view
             it.markReadFlag = book.markReadFlag
-            it.markFinishFlag = book.markFinishFlag
-            it.currentPage = book.currentPage
+//            it.markFinishFlag = book.markFinishFlag
+//            it.currentPage = book.currentPage
             it.reviews = book.reviews
             bookRepository.save(it)
         }.orElseThrow { EntityNotFoundException("Book not found with id $id") }
@@ -42,7 +44,7 @@ class BookService(private val bookRepository: BookRepository, private val review
                 newReviews.add(review)
             }
             it.reviews = newReviews
-            it.rate = if (it.reviews!=null) it.reviews!!.sumOf { it.rating } / it.reviews!!.size else review.rating
+            it.rate = if (it.reviews!=null) ((it.reviews!!.sumOf { it.rating }) / it.reviews!!.size).toInt() else review.rating
             bookRepository.save(it)
         }.orElseThrow { EntityNotFoundException("Book not found with id $id") }
         return review
@@ -66,7 +68,7 @@ class BookService(private val bookRepository: BookRepository, private val review
     fun endReading(id: Long): Book{
         return bookRepository.findById(id).map {
             it.markReadFlag = false
-            it.markFinishFlag = true
+//            it.markFinishFlag = true
             bookRepository.save(it)
         }.orElseThrow { EntityNotFoundException("Book not found with id $id") }
     }

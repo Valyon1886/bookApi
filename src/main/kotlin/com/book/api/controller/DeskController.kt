@@ -23,7 +23,7 @@ class DeskController(private val deskService: DeskService) {
         return deskService.updateDesk(id, desk)
     }
 
-    @GetMapping("/{id}/addBook")
+    @GetMapping("/addBook/{id}")
     @ResponseBody
     fun addBookToDesk(@PathVariable id: Long, @RequestBody book: Book): DeskOfBook {
         return deskService.addBookToDesk(id, book)
