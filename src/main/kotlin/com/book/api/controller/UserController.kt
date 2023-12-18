@@ -24,7 +24,7 @@ class UserController (private val userService: UserService) {
 
     @PostMapping("/{userId}/blaster/{blasterId}")
     @ResponseBody
-    fun addBookToDeskById(@PathVariable userId: Long, @PathVariable deskId: Long, @RequestBody book: Book) = userService.addBookToDeskById(userId, deskId, book)
+    fun addBookToDeskById(@PathVariable userId: Int, @PathVariable deskId: Long, @RequestBody book: Book) = userService.addBookToDeskById(userId, deskId, book)
 
     @GetMapping("/test")
     @ResponseBody
@@ -36,9 +36,9 @@ class UserController (private val userService: UserService) {
 
     @DeleteMapping("/del/{id}")
     @ResponseBody
-    fun deleteUser(@PathVariable id: Long): String = userService.deleteUser(id)
+    fun deleteUser(@PathVariable id: Int): String = userService.deleteUser(id)
 
     @GetMapping("/{id}")
     @ResponseBody
-    fun findUser(@PathVariable id: Long): User? = userService.findUser(id)
+    fun findUser(@PathVariable id: Int): User? = userService.findUser(id)
 }
