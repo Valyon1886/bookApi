@@ -19,10 +19,10 @@ class DeskService(private val deskRepository: DeskOfBookRepository, private val 
 
     fun updateDesk(id: Long, desk: DeskOfBook): DeskOfBook{
         return deskRepository.findById(id).map {
-            it.location = desk.location
-            it.numberOfBooks = desk.numberOfBooks
-            it.category = desk.category
-            it.deskName = desk.deskName
+//            it.location = desk.location
+//            it.numberOfBooks = desk.numberOfBooks
+//            it.category = desk.category
+//            it.deskName = desk.deskName
             it.books = desk.books
             deskRepository.save(it)
         }.orElseThrow { EntityNotFoundException("Desk not found with id $id") }
