@@ -9,6 +9,7 @@ import jakarta.persistence.*
 data class User(
 //    @Column(nullable = true) var idToken: String?,
     @Column(nullable = false) val name: String,
+    @Column(nullable = false) val email: String,
     @Column(nullable = false) val registerDate: String,
     @Column(nullable = false) var password: String,
     @OneToMany
@@ -18,5 +19,5 @@ data class User(
 {
     constructor() : this(
 //        null,
-        "test", "2012-07-16", "123", mutableListOf())
+        "test", "test@test.test","2012-07-16", "123", mutableListOf())
 }
