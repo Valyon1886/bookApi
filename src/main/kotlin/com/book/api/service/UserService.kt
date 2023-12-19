@@ -17,9 +17,9 @@ class UserService (private val userRepository: UserRepository, private val deskS
 //        return userRepository.findByIdToken(idToken) != null
 //    }
 //
-//    fun findUserByIdToken(idToken: String): User? {
-//        return userRepository.findByIdToken(idToken)
-//    }
+    fun findByUsername(username: String): User? {
+        return userRepository.findByUsername(username)
+    }
 
     fun addUser(user: User): User {
         for (i in user.shelf!!) {
