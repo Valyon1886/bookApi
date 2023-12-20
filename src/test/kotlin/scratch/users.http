@@ -21,3 +21,14 @@ Content-Type: application/json
   "shelf": [],
   "id": 1
 }
+
+###
+POST http://localhost:8081/book/addReview/1
+Content-Type: application/json
+
+{
+  "reviewText": "BEST BOOK",
+  "rating": 5,
+  "reviewDate": "2023-12-31",
+  "userId": 1
+}
