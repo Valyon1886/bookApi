@@ -1,0 +1,828 @@
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 110
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "registerDate": "2023-12-31",
+  "password": "secrejbuyt",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T232327.403.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 106
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T232319.200.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 106
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T232230.200.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 106
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T232039.500.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 106
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T231919.500.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 106
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T231344.409.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 106
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T231340.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 104
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "registerDate": "2023-12-31",
+  "password": "8888",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T231324.403.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 106
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T231314.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 138
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "8888",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T000753.403.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T000734.200.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T000731.409.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T000728.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T000547.405.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T000543.409.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T000540.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T000330.405.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T000251.409.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-20T000246.200.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-19T235307.409.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+<> 2023-12-19T235215.200.json
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 728
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Ревизор",
+  "author": "Николай Гоголь",
+  "rate": 0,
+  "description": "«Ревизор» — одна из лучших русских комедий. Н.В. Гоголь заставил современников смеяться над тем, к чему они привыкли и что перестали замечать. И сегодня комедия, созданная великим русским писателем, продолжая звучать современно, указывает путь к нравственному возрождению.",
+  "image": "Nikolai_Gogol_Revizor.jpg",
+  "file": "Gogol_Revizor.pdf",
+  "markReadFlag": false,
+  "genre": "Пьеса"
+}
+
+<> 2023-12-19T234436.200.json
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 728
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Ревизор",
+  "author": "Николай Гоголь",
+  "rate": 0,
+  "description": "«Ревизор» — одна из лучших русских комедий. Н.В. Гоголь заставил современников смеяться над тем, к чему они привыкли и что перестали замечать. И сегодня комедия, созданная великим русским писателем, продолжая звучать современно, указывает путь к нравственному возрождению.",
+  "image": "Nikolai_Gogol_Revizor.jpg",
+  "file": "Gogol_Revizor.pdf",
+  "markReadFlag": false,
+  "genre": "Пьеса"
+}
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=1B65A64FAB5B74C83E6A6A7D4E33D93F
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 140
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=1B65A64FAB5B74C83E6A6A7D4E33D93F
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "registerDate": "2023-12-31",
+  "password": "secret",
+  "shelf": [],
+  "id": 1
+}
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 979
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Полтава",
+  "author": "Александр Пушкин",
+  "rate": 0,
+  "description": "В поэме «Полтава» рассказывается о знаменательных событиях петровской эпохи, сыгравших важную роль в истории России. В центре поэмы стоит величественный образ Петра I. «Полтава» — восторженный гимн русскому императору, его творческому гению, его смелой личности. В поэме Пушкина Пётр противопоставлен и Карлу XII с его авантюристическими стремлениями к личной славе, и Мазепе с его корыстью и вероломством.",
+  "image": "Pushkin_Poltava.jpg",
+  "file": "Pushkin_Poltava.pdf",
+  "markReadFlag": false,
+  "genre": "Классика"
+}
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 979
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Полтава",
+  "author": "Александр Пушкин",
+  "rate": 0,
+  "description": "В поэме «Полтава» рассказывается о знаменательных событиях петровской эпохи, сыгравших важную роль в истории России. В центре поэмы стоит величественный образ Петра I. «Полтава» — восторженный гимн русскому императору, его творческому гению, его смелой личности. В поэме Пушкина Пётр противопоставлен и Карлу XII с его авантюристическими стремлениями к личной славе, и Мазепе с его корыстью и вероломством.",
+  "image": "Pushkin_Poltava.jpg",
+  "file": "Pushkin_Poltava.pdf",
+  "markReadFlag": false,
+  "genre": "Классика"
+}
+
+<> 2023-12-18T232537.200.json
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 578
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Школа",
+  "author": "Аркадий Гайдар",
+  "rate": 0,
+  "description": "В автобиографической повести знаменитого писателя Аркадия Гайдара описана школа жизни, мужества и становления характера, пройденная пятнадцатилетним мальчиком в революции и Гражданской войне.",
+  "image": "Gaidar_Shkola.jpg",
+  "file": "Gaidar_Shkola.pdf",
+  "markReadFlag": false,
+  "genre": "Повесть"
+}
+
+<> 2023-12-18T231826.200.json
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 578
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Школа",
+  "author": "Аркадий Гайдар",
+  "rate": 0,
+  "description": "В автобиографической повести знаменитого писателя Аркадия Гайдара описана школа жизни, мужества и становления характера, пройденная пятнадцатилетним мальчиком в революции и Гражданской войне.",
+  "image": "Gaidar_Shkola.jpg",
+  "file": "Gaidar_Shkola.pdf",
+  "markReadFlag": false,
+  "genre": "Повесть"
+}
+
+<> 2023-12-18T231726.500.json
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 979
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Полтава",
+  "author": "Александр Пушкин",
+  "rate": 0,
+  "description": "В поэме «Полтава» рассказывается о знаменательных событиях петровской эпохи, сыгравших важную роль в истории России. В центре поэмы стоит величественный образ Петра I. «Полтава» — восторженный гимн русскому императору, его творческому гению, его смелой личности. В поэме Пушкина Пётр противопоставлен и Карлу XII с его авантюристическими стремлениями к личной славе, и Мазепе с его корыстью и вероломством.",
+  "image": "Pushkin_Poltava.jpg",
+  "file": "Pushkin_Poltava.pdf",
+  "markReadFlag": false,
+  "genre": "Классика"
+}
+
+<> 2023-12-18T231649.500.json
+
+###
+
+DELETE http://localhost:8081/desk/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-12T221945.200.txt
+
+###
+
+GET http://localhost:8081/desk/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-12T221852.400.json
+
+###
+
+GET http://localhost:8081/desk/add
+Content-Type: application/json
+Content-Length: 689
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "deskName": "Название стеллажа",
+  "numberOfBooks": 1,
+  "location": "Местоположение стеллажа",
+  "category": "Категория книг",
+  "books": [
+    {
+      "id": 1,
+      "name": "Название книги",
+      "author": "Автор книги",
+      "productionYear": "Год издания",
+      "rate": 4.5,
+      "description": "Описание книги",
+      "image": "ссылка на изображение",
+      "file": "ссылка на файл книги",
+      "view": 1000,
+      "markFinishFlag": true,
+      "markReadFlag": false,
+      "currentPage": 50,
+      "genre": "Жанр книги"
+    }
+  ]
+}
+
+<> 2023-12-12T221353.200.json
+
+###
+
+GET http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 416
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Название книги",
+  "author": "Автор книги",
+  "productionYear": "Год издания",
+  "rate": 4.5,
+  "description": "Описание книги",
+  "image": "ссылка на изображение",
+  "file": "ссылка на файл книги",
+  "view": 1000,
+  "markFinishFlag": true,
+  "markReadFlag": false,
+  "currentPage": 50,
+  "genre": "Жанр книги"
+}
+
+<> 2023-12-12T221335.200.json
+
+###
+
+GET http://localhost:8081/user/test
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-12T221333.200.txt
+
+###
+
+GET http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 416
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Название книги",
+  "author": "Автор книги",
+  "productionYear": "Год издания",
+  "rate": 4.5,
+  "description": "Описание книги",
+  "image": "ссылка на изображение",
+  "file": "ссылка на файл книги",
+  "view": 1000,
+  "markFinishFlag": true,
+  "markReadFlag": false,
+  "currentPage": 50,
+  "genre": "Жанр книги"
+}
+
+<> 2023-12-12T215207.200.json
+
+###
+
+GET http://localhost:8080/book/create
+Content-Type: application/json
+Content-Length: 416
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Название книги",
+  "author": "Автор книги",
+  "productionYear": "Год издания",
+  "rate": 4.5,
+  "description": "Описание книги",
+  "image": "ссылка на изображение",
+  "file": "ссылка на файл книги",
+  "view": 1000,
+  "markFinishFlag": true,
+  "markReadFlag": false,
+  "currentPage": 50,
+  "genre": "Жанр книги"
+}
+
+<> 2023-12-12T215155.404.html
+
+###
+
+GET http://localhost:8081/user/test
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-12T215120.200.txt
+
+###
+

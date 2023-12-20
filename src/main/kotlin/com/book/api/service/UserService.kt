@@ -22,6 +22,8 @@ class UserService (private val userRepository: UserRepository, private val deskS
     fun save(user: User) {
         // Шифрование пароля в SHA-256
         user.password = DigestUtils.sha256Hex(user.password)
+        val desk = deskService.add(DeskOfBook(null))
+        user.shelf?.add(desk)
         userRepository.save(user)
     }
 
