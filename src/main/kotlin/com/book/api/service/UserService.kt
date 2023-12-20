@@ -14,12 +14,8 @@ import org.springframework.stereotype.Service
 //@Component
 class UserService (private val userRepository: UserRepository, private val deskService: DeskService){
 
-    fun findByUsername(username: String): User? {
-        return userRepository.findByName(username)
-    }
-
-    fun findByEmail(email: String): User? {
-        return userRepository.findByEmail(email)
+    fun findByName(name: String): User? {
+        return userRepository.findByName(name)
     }
 
 
@@ -30,8 +26,8 @@ class UserService (private val userRepository: UserRepository, private val deskS
     }
 
     fun auth(user: User): Boolean {
-        val temp_user = userRepository.findByEmail(user.email)
-        if(user.email.equals(temp_user!!.email) &&
+        val temp_user = userRepository.findByName(user.name)
+        if(user.name.equals(temp_user!!.name) &&
             DigestUtils.sha256Hex(user.password).equals(temp_user!!.password))
             return true
         return false

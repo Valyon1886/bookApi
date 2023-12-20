@@ -4,7 +4,6 @@ Content-Type: application/json
 
 {
   "name": "John Doe",
-  "email": "johndoe@example.com",
   "registerDate": "2023-12-31",
   "password": "secret",
   "shelf": [],
@@ -17,9 +16,8 @@ Content-Type: application/json
 
 {
   "name": "John Doe",
-  "email": "johndoe@example.com",
   "registerDate": "2023-12-31",
-  "password": "8888",
+  "password": "secret",
   "shelf": [],
   "id": 1
 }
