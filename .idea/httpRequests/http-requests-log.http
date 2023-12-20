@@ -1,3 +1,153 @@
+POST http://localhost:8081/user/1/desk/1/book/2
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T001402.500.json
+
+###
+
+POST http://localhost:8081/user/1/desk/1/book/2
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T001019.500.json
+
+###
+
+POST http://localhost:8081/user/1/desk/1/book/2
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T000547.500.json
+
+###
+
+POST http://localhost:8081/user/1/desk/1/book/2
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T000250.500.json
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 728
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Ревизор",
+  "author": "Николай Гоголь",
+  "rate": 0,
+  "description": "«Ревизор» — одна из лучших русских комедий. Н.В. Гоголь заставил современников смеяться над тем, к чему они привыкли и что перестали замечать. И сегодня комедия, созданная великим русским писателем, продолжая звучать современно, указывает путь к нравственному возрождению.",
+  "image": "Nikolai_Gogol_Revizor.jpg",
+  "file": "Gogol_Revizor.pdf",
+  "markReadFlag": false,
+  "genre": "Пьеса"
+}
+
+<> 2023-12-21T000244.200.json
+
+###
+
+POST http://localhost:8081/user/1/desk/1/book/1
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T000142.500.json
+
+###
+
+POST http://localhost:8081/user/1/desk/1/book/1
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-20T234931.500.json
+
+###
+
+POST http://localhost:8081/book/addReview/1
+Content-Type: application/json
+Content-Length: 91
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "reviewText": "BEST BOOK",
+  "rating": 5,
+  "reviewDate": "2023-12-31",
+  "userId": 1
+}
+
+<> 2023-12-20T233547.200.json
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 1239
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Мастер и Маргарита",
+  "author": "Михаил Булгаков",
+  "rate": 0,
+  "description": "\"Мастер и Маргарита\" - итоговое произведение выдающегося отечественного прозаика и драматурга Михаила Афанасьевича Булгакова. \nОбещание, содержащееся на страницах книги - \"ваш роман вам принесет еще сюрпризы\", - оправдалось вполне: написанный Мастером провидческий роман о дьяволе, пожалуй, явился одной из самых загадочных, удивительных и самых читаемых книг XX столетия! Многие слова и выражения из этого произведения вошли в современный лексикон, а персонажи своею реальностью затмили действительно существующих граждан.",
+  "image": "Bulgakov_Master_i_Margarita.jpg",
+  "file": "Bulgakov_Master_i_Margarita.pdf",
+  "markReadFlag": false,
+  "genre": "Мистика"
+}
+
+<> 2023-12-20T233540.200.json
+
+###
+
+POST http://localhost:8081/book/addReview/1
+Content-Type: application/json
+Content-Length: 91
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=FACB13B6E14A82F9C1E263047C25E424
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "reviewText": "BEST BOOK",
+  "rating": 5,
+  "reviewDate": "2023-12-31",
+  "userId": 1
+}
+
+<> 2023-12-20T233525.500.json
+
+###
+
 POST http://localhost:8081/user/login
 Content-Type: application/json
 Content-Length: 110
@@ -814,15 +964,6 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 }
 
 <> 2023-12-12T215155.404.html
-
-###
-
-GET http://localhost:8081/user/test
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-12-12T215120.200.txt
 
 ###
 

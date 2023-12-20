@@ -17,6 +17,10 @@ class DeskService(private val deskRepository: DeskOfBookRepository, private val 
         return deskRepository.save(desk)
     }
 
+    fun findById(id: Long): DeskOfBook{
+        return deskRepository.findById(id).get()
+    }
+
     fun updateDesk(id: Long, desk: DeskOfBook): DeskOfBook{
         return deskRepository.findById(id).map {
 //            it.location = desk.location
@@ -29,16 +33,20 @@ class DeskService(private val deskRepository: DeskOfBookRepository, private val 
     }
 
     fun addBookToDesk(id: Long, book: Book): DeskOfBook {
-        return deskRepository.findById(id).map {
-            var newBooks:MutableList<Book>? = it.books
-            if (newBooks != null) {
+        var currentDesk = deskRepository.findById(id).get()
+            var newBooks:MutableList<Book> = currentDesk.books!!
+            if (newBooks != null && bookService.findBook(book.id!!)==null) {
                 bookService.add(book)
+
+            }
+            if (newBooks != null) {
                 newBooks.add(book)
             }
-            it.books = newBooks
+        currentDesk.books = newBooks
 
-            deskRepository.save(it)
-        }.orElseThrow { EntityNotFoundException("Book not found with id $id") }
+            deskRepository.save(currentDesk)
+
+        return currentDesk
     }
 
     fun deleteDesk(id: Long): String = deskRepository.deleteById(id).toString()

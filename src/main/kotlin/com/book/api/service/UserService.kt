@@ -12,7 +12,8 @@ import org.springframework.stereotype.Service
 
 @Service
 //@Component
-class UserService (private val userRepository: UserRepository, private val deskService: DeskService){
+class UserService (private val userRepository: UserRepository, private val deskService: DeskService,
+    private val bookService: BookService){
 
     fun findByName(name: String): User? {
         return userRepository.findByName(name)
@@ -49,14 +50,20 @@ class UserService (private val userRepository: UserRepository, private val deskS
         return "OK"//Response.isOk();  //  TODO Сделать через json
     }
 
-    fun addBookToDeskById(userId: Long, deskId: Long, book: Book): Book{
+    fun addBookToDeskById(userId: Long, deskId: Long, bookId: Long): Book{
+        var book = bookService.findBook(bookId)
         var updateUser = userRepository.findByIdOrNull(userId)
+        var desk: DeskOfBook? = null
         if(updateUser!=null) {
+            var updateDesk = deskService.findById(deskId)
+            if (updateDesk!=null){
+                desk = deskService.addBookToDesk(deskId, book)
+                deskService.updateDesk(deskId, desk)
+
+            }
             var newDesks:MutableList<DeskOfBook>? = updateUser.shelf
             if (newDesks != null) {
-                var desk: DeskOfBook = deskService.addBookToDesk(deskId, book)
-                deskService.updateDesk(deskId, desk)
-                newDesks.add(desk)
+                newDesks.add(desk!!)
             }
             updateUser.shelf = newDesks
             userRepository.save(updateUser)

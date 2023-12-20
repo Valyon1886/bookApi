@@ -32,9 +32,8 @@ class UserController (private val userService: UserService) {
     @ResponseBody
     fun addUser(@RequestBody user: User): User = userService.addUser(user)
 
-    @PostMapping("/{userId}/book/{deskId}")
-    @ResponseBody
-    fun addBookToDeskById(@PathVariable userId: Long, @PathVariable deskId: Long, @RequestBody book: Book) = userService.addBookToDeskById(userId, deskId, book)
+    @PostMapping("/{userId}/desk/{deskId}/book/{bookId}")
+    fun addBookToDeskById(@PathVariable userId: Long, @PathVariable deskId: Long, @PathVariable bookId: Long) = userService.addBookToDeskById(userId, deskId, bookId)
 
     @GetMapping("/test")
     @ResponseBody

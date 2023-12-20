@@ -32,3 +32,6 @@ Content-Type: application/json
   "reviewDate": "2023-12-31",
   "userId": 1
 }
+
+###
+POST http://localhost:8081/user/1/desk/1/book/2
