@@ -17,7 +17,7 @@ Content-Type: application/json
 {
   "name": "John Doe",
   "registerDate": "2023-12-31",
-  "password": "secret",
+  "password": "secrejbuyt",
   "shelf": [],
   "id": 1
 }
