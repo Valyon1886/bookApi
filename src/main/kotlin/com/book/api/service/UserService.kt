@@ -12,7 +12,8 @@ import org.springframework.stereotype.Service
 
 @Service
 //@Component
-class UserService (private val userRepository: UserRepository, private val deskService: DeskService){
+class UserService (private val userRepository: UserRepository, private val deskService: DeskService,
+                   private val bookService: BookService){
 
     fun findByName(name: String): User? {
         return userRepository.findByName(name)
@@ -23,6 +24,7 @@ class UserService (private val userRepository: UserRepository, private val deskS
         // Шифрование пароля в SHA-256
         user.password = DigestUtils.sha256Hex(user.password)
         val desk = deskService.add(DeskOfBook(null))
+        var temp_desk =
         user.shelf?.add(desk)
         userRepository.save(user)
     }
@@ -49,14 +51,16 @@ class UserService (private val userRepository: UserRepository, private val deskS
         return "OK"//Response.isOk();  //  TODO Сделать через json
     }
 
-    fun addBookToDeskById(userId: Long, deskId: Long, book: Book): Book{
+    fun addBookToDeskById(userId: Long, bookId: Long): Book{
         var updateUser = userRepository.findByIdOrNull(userId)
+        var book = bookService.findBook(bookId)
         if(updateUser!=null) {
             var newDesks:MutableList<DeskOfBook>? = updateUser.shelf
-            if (newDesks != null) {
-                var desk: DeskOfBook = deskService.addBookToDesk(deskId, book)
-                deskService.updateDesk(deskId, desk)
-                newDesks.add(desk)
+            var userDesk = newDesks!!.get(0)
+            if (userDesk != null) {
+                var desk: DeskOfBook = deskService.addBookToDesk(userDesk.id!!, book)
+                deskService.updateDesk(userDesk.id!!, desk)
+                newDesks.set(0, desk)
             }
             updateUser.shelf = newDesks
             userRepository.save(updateUser)

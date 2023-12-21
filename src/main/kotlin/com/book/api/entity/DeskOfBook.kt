@@ -9,7 +9,7 @@ data class DeskOfBook(
 //    @Column(nullable = false) var numberOfBooks: Int,
 //    @Column(nullable = false) var location: String,
 //    @Column(nullable = false) var category: String,
-    @OneToMany
+    @ManyToMany
     @Column(nullable = true) var books: MutableList<Book>?,
     @Id @GeneratedValue val id: Long? = null
 )

@@ -29,16 +29,13 @@ class DeskService(private val deskRepository: DeskOfBookRepository, private val 
     }
 
     fun addBookToDesk(id: Long, book: Book): DeskOfBook {
-        return deskRepository.findById(id).map {
-            var newBooks:MutableList<Book>? = it.books
-            if (newBooks != null) {
-                bookService.add(book)
-                newBooks.add(book)
-            }
-            it.books = newBooks
-
-            deskRepository.save(it)
-        }.orElseThrow { EntityNotFoundException("Book not found with id $id") }
+        var newDesk:DeskOfBook = deskRepository.findById(id).get()
+        var newBook = bookService.findBook(book.id!!)
+        var newBooks:MutableList<Book>? =newDesk.books
+        newBooks!!.add(newBook)
+        newDesk.books = newBooks
+        deskRepository.save(newDesk)
+        return deskRepository.findById(id).get()
     }
 
     fun deleteDesk(id: Long): String = deskRepository.deleteById(id).toString()
