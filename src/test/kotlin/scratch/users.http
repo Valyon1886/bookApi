@@ -15,8 +15,8 @@ POST http://localhost:8081/user/login
 Content-Type: application/json
 
 {
-  "name": "daniel",
-  "password": "123456"
+  "name": "John Doe",
+  "password": "secret"
 }
 
 ###
@@ -24,8 +24,12 @@ POST http://localhost:8081/book/addReview/1
 Content-Type: application/json
 
 {
-  "reviewText": "BEST BOOK",
+  "reviewText": "BEST BOOK2",
   "rating": 5,
   "reviewDate": "2023-12-31",
   "userId": 1
 }
+
+###
+POST http://localhost:8081/review/get/1
+Content-Type: application/json
