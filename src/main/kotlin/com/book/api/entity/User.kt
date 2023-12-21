@@ -9,7 +9,7 @@ import jakarta.persistence.*
 data class User(
 //    @Column(nullable = true) var idToken: String?,
     @Column(nullable = false) val name: String,
-    @Column(nullable = false) val registerDate: String,
+    @Column(nullable = false) val registerDate: String?,
     @Column(nullable = false) var password: String,
     @OneToMany
     @Column(nullable = true) var shelf: MutableList<DeskOfBook>?,
