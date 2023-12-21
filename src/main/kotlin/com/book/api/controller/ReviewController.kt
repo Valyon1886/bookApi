@@ -18,7 +18,7 @@ class ReviewController(private val reviewService: ReviewService) {
 
     @PostMapping("/get/{id}")
     @ResponseBody
-    fun addReview(@PathVariable id: Long): List<Review> {
+    fun getReviewList(@PathVariable id: Long): List<Review> {
         return reviewService.getAllByIdBook(id)
     }
 
