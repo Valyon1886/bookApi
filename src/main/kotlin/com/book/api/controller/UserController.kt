@@ -18,7 +18,7 @@ class UserController (private val userService: UserService) {
         if(userService.findByName(user.name)!=null) return ResponseEntity.status(HttpStatus.CONFLICT).body(user)
         userService.save(user)
         var temp_user = userService.findByName(user.name)!!
-        return ResponseEntity.ok(user)
+        return ResponseEntity.ok(temp_user)
     }
 
     @PostMapping("/login")
@@ -33,9 +33,9 @@ class UserController (private val userService: UserService) {
     @ResponseBody
     fun addUser(@RequestBody user: User): User = userService.addUser(user)
 
-    @PostMapping("/{userId}/book/{deskId}")
+    @PostMapping("/{userId}/book/{bookId}")
     @ResponseBody
-    fun addBookToDeskById(@PathVariable userId: Long, @PathVariable deskId: Long, @RequestBody book: Book) = userService.addBookToDeskById(userId, deskId, book)
+    fun addBookToDeskById(@PathVariable userId: Long, @PathVariable bookId: Long) = userService.addBookToDeskById(userId, bookId)
 
     @GetMapping("/test")
     @ResponseBody

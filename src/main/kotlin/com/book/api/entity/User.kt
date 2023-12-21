@@ -11,7 +11,7 @@ data class User(
     @Column(nullable = false) val name: String,
     @Column(nullable = false) val registerDate: String?,
     @Column(nullable = false) var password: String,
-    @OneToMany
+    @ManyToMany
     @Column(nullable = true) var shelf: MutableList<DeskOfBook>?,
     @Id @GeneratedValue val id: Long? = null
 )
