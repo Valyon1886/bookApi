@@ -3,10 +3,9 @@ POST http://localhost:8081/user/registration
 Content-Type: application/json
 
 {
-  "name": "John Doe2",
-  "registerDate": "2023-12-31",
-  "password": "secret",
-  "shelf": []
+  "name": "dasha",
+  "registerDate": "11.12.2023",
+  "password": "123456"
 }
 
 ###
@@ -14,8 +13,8 @@ POST http://localhost:8081/user/login
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "password": "secret"
+  "name": "kisa",
+  "password": "123456"
 }
 
 ###
@@ -23,10 +22,11 @@ POST http://localhost:8081/book/addReview/1
 Content-Type: application/json
 
 {
-  "reviewText": "BEST BOOK2",
+  "reviewText": "Я не читала!",
   "rating": 5,
-  "reviewDate": "2023-12-31",
-  "userId": 1
+  "reviewDate": "25.11.2023",
+  "userId": 3,
+  "userName": "dasha"
 }
 
 ###
@@ -37,5 +37,5 @@ Content-Type: application/json
 
 }
 ###
-POST http://localhost:8081/user/1/book/1
+POST http://localhost:8081/user/102/book/16
 Content-Type: application/json
