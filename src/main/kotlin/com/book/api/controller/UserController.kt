@@ -24,7 +24,10 @@ class UserController (private val userService: UserService) {
     @PostMapping("/login")
     @ResponseBody
     fun login(@RequestBody user: User): ResponseEntity<User> {
+        println("Зашли")
+        println(user)
         val temp_user = userService.findByName(user.name)
+        println(temp_user)
         if(temp_user!=null && userService.auth(user)) return ResponseEntity.ok(temp_user)
         return ResponseEntity.status(HttpStatus.FORBIDDEN).body(user)
     }
