@@ -1,286 +1,43 @@
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/login
 Content-Type: application/json
-Content-Length: 922
+Content-Length: 43
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Граф Монте-Кристо",
-  "author": "Александр Дюма",
-  "rate": 3,
-  "description": "«Граф Монте-Кристо», один из самых популярных романов Александра Дюма, имеет ошеломительный успех у читателей. Его сюжет автор почерпнул из архивов парижской полиции. Подлинная жизнь сапожника Франсуа Пико, ставшего прототипом Эдмона Дантеса, под пером настоящего художника превратилась в захватывающую книгу о мученике замка Иф и о парижском ангеле мщения.",
-  "image": "graf_monte_cristo.jpg",
-  "file": "Duma_Graf_Monte_Cristo.pdf",
-  "markReadFlag": false,
-  "genre": "Приключения"
+  "name": "ttt",
+  "password": "123456"
 }
 
-<> 2023-12-22T181040.200.json
+<> 2023-12-22T210912.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/login
 Content-Type: application/json
-Content-Length: 644
+Content-Length: 43
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Дети капитана Гранта",
-  "author": "Жюль Верн",
-  "rate": 4,
-  "description": "Герои путешествуют по трем океанам, разыскивая потерпевшего кораблекрушение шотландского патриота — капитана Гранта. В произведении широко развернуты картины природы и жизни людей в различных частях света.",
-  "image": "Grant_Verne.jpg",
-  "file": "Zhul_Vern_Deti_kapitana_Granta.pdf",
-  "markReadFlag": false,
-  "genre": "Приключения"
+  "name": "ttt",
+  "password": "123456"
 }
 
-<> 2023-12-22T181038.200.json
+<> 2023-12-22T210755.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/1/book/2
 Content-Type: application/json
-Content-Length: 1385
+Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "Книга джунглей",
-  "author": "Редьярд Киплинг",
-  "rate": 5,
-  "description": "Книги джунглей считаются лучшими произведениями великого английского писателя Редьярда Киплинга, ставшего в 1907 году первым англичанином, получившим Нобелевскую премию по литературе. Наибольшую известность писатель получил благодаря своим детским произведениям, получившим широкую известность во всем мире. Цикл детских произведений о мальчике, выращенном и воспитанном стаей диких волков, и его животных – друзьях неоднократно экранизировался, в том числе и в России. Сложно найти на Земле человека, не знающего имен знаменитых героев детских рассказов Киплинга – Маугли, Каа, Багира, Шерхан, Акела и многих других.",
-  "image": "Kipling_The_Jungle_Book.jpg",
-  "file": "Kipling_Maugli.pdf",
-  "markReadFlag": false,
-  "genre": "Сказка"
-}
-
-<> 2023-12-22T181034.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 806
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Сердца трех",
-  "author": "Джек Лондон",
-  "rate": 1,
-  "description": "Последний роман знаменитого американского писателя Джека Лондона (1876-1916) «Сердца трех» покоряет своим интригующим сюжетом и необыкновенным динамизмом действия. Лондон показал себя в этом произведении певцом Приключения, поэтом романтической любви, развертывающейся на фоне красочных, непривычных декораций.",
-  "image": "London_Hearts_of_three.jpg",
-  "file": "London_Serdtsa_treh.pdf",
-  "markReadFlag": false,
-  "genre": "Роман"
-}
-
-<> 2023-12-22T181024.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 488
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Гамлет",
-  "author": "Уильям Шекспир",
-  "rate": 2,
-  "description": "Самая длинная пьеса Шекспира (в ней 4 042 строки и 29 551 слово), одна из самых известных его пьес, и одна из самых знаменитых пьес в мировой драматургии",
-  "image": "Hamlet.jpg",
-  "file": "Shakespeare_Hamlet.pdf",
-  "markReadFlag": false,
-  "genre": "Классика"
-}
-
-<> 2023-12-22T181020.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 667
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Остров сокровищ",
-  "author": "Роберт Льюис Стивенсон",
-  "rate": 3,
-  "description": "В руки юного Джима попадает карта знаменитого флибустьера Флинта. Джим и его друзья отправляются в опасное путешествие на поиски пиратского клада. На Острове Сокровищ им пришлось пережить опасные приключения.",
-  "image": "Treasure_Island_1911.jpg",
-  "file": "Stivenson_Ostrov_sokrovish.pdf",
-  "markReadFlag": false,
-  "genre": "Приключения"
-}
-
-<> 2023-12-22T181017.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 578
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Школа",
-  "author": "Аркадий Гайдар",
-  "rate": 4,
-  "description": "В автобиографической повести знаменитого писателя Аркадия Гайдара описана школа жизни, мужества и становления характера, пройденная пятнадцатилетним мальчиком в революции и Гражданской войне.",
-  "image": "Gaidar_Shkola.jpg",
-  "file": "Gaidar_Shkola.pdf",
-  "markReadFlag": false,
-  "genre": "Повесть"
-}
-
-<> 2023-12-22T181013.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 979
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Полтава",
-  "author": "Александр Пушкин",
-  "rate": 5,
-  "description": "В поэме «Полтава» рассказывается о знаменательных событиях петровской эпохи, сыгравших важную роль в истории России. В центре поэмы стоит величественный образ Петра I. «Полтава» — восторженный гимн русскому императору, его творческому гению, его смелой личности. В поэме Пушкина Пётр противопоставлен и Карлу XII с его авантюристическими стремлениями к личной славе, и Мазепе с его корыстью и вероломством.",
-  "image": "Pushkin_Poltava.jpg",
-  "file": "Pushkin_Poltava.pdf",
-  "markReadFlag": false,
-  "genre": "Классика"
-}
-
-<> 2023-12-22T181010.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 1728
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Цыганы",
-  "author": "Александр Пушкин",
-  "rate": 1,
-  "description": "Поэма «Цыганы» была написана в 1824 году, является завершением романтического цикла произведений Пушкина. Время написания поэмы совпадает с очень важными событиями в жизни автора. Начатая на юге в январе 1824 года, поэма закончена в Михайловском 10 октября. В основу «Цыган», как и других «южных поэм», легли собственные наблюдения и впечатления поэта. Однако автобиографический элемент выступает здесь в новом качестве. Он проявляется в совмещении жизненных ситуаций автора и героя: странствования Пушкина с цыганским табором в Молдавии летом 1821 года становятся подосновой истории героя, что акцентируется совпадением имен (Александр-Алеко). Автобиографическое начало определяет характер лирического повествования: сходство мыслей поэта и героя — оба они отрицают «неволю душных городов», «оковы просвещенья».",
-  "image": "Pushkin_Egipetskie_nochi.jpg",
-  "file": "Pushkin_Tsygany.pdf",
-  "markReadFlag": false,
-  "genre": "Классика"
-}
-
-<> 2023-12-22T181008.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 1997
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Янки из Коннектикута при дворе короля Артура",
-  "author": "Марк Твен",
-  "rate": 2,
-  "description": "Роман Марка Твена, впервые опубликованный в 1889 году. Это ранний пример темы путешествий во времени в литературе, который вышел за 6 лет до «Машины времени» (1895) Герберта Уэллса. Роман в сатирическом духе высмеивает рыцарские романы о средневековье. Типичный янки из штата Коннектикут конца XIX века получает во время драки удар ломом по голове и теряет сознание. Очнувшись, он обнаруживает, что попал в эпоху и королевство британского короля Артура (VI в.), героя многих рыцарских романов. Предприимчивый янки немедленно находит место при дворе короля в качестве волшебника, потеснив старого Мерлина. Используя свои знания науки, техники и истории, он начинает преобразовывать британское общество по образцу современной ему Америки. Янки удается добиться больших успехов, прежде чем его «колдовская» деятельность вызывает активное противодействие церкви и рыцарства, и те объявляют ему войну.",
-  "image": "Twain_A_Connecticut_Yankee_in_King_Arthur’s_Court.jpg",
-  "file": "Twain_Yanki_iz_Konnektikuta_pri_dvore_korolya_Artura.pdf",
-  "markReadFlag": false,
-  "genre": "Приключения"
-}
-
-<> 2023-12-22T181006.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 989
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Городок",
-  "author": "Шарлотта Бронте",
-  "rate": 2,
-  "description": "Роман известной английской писательницы Ш. Бронте (1816–1855) — это история молодой англичанки Люси Сноу, рано осиротевшей, оказавшейся в полном одиночестве, без средств к существованию. Героине приходится преодолеть много трудностей, столкнуться с лицемерием и несправедливостью, пережить тяжелые разочарования, утрату иллюзии и крушение надежд на счастье. В широком плане \"Городок\" — роман о становлении личности.",
-  "image": "Bronte_Villettejpg.jpg",
-  "file": "Bronte_Gorodok.pdf",
-  "markReadFlag": false,
-  "genre": "Роман"
-}
-
-<> 2023-12-22T181004.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 1115
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Нортенгерское аббатство",
-  "author": "Джейн Остин",
-  "rate": 3,
-  "description": "Может ли история любви сочетать в себе романтизм и искрометный юмор? Способна ли история приключений одновременно захватывать и смешить? Может, если речь идет о романе Джейн Остен «Нортенгерское аббатство». Эта книга, навеки вошедшая в золотой фонд мировой литературы, по-прежнему покоряет миллионы читательниц по всему миру, по-прежнему читается на одном дыхании и по-прежнему поистине потрясает своим изяществом, блеском и неподражаемым, лукавым обаянием…",
-  "image": "Austen_Northanger_Abbey.jpg",
-  "file": "Austen_Nortengerskoe_abbatstvo.pdf",
-  "markReadFlag": false,
-  "genre": "Роман"
-}
-
-<> 2023-12-22T181002.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 760
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Светлана",
-  "author": "Василий Жуковский",
-  "rate": 4,
-  "description": "Наиболее известной балладой Жуковского является баллада 'Светлана', над которой поэт работал в 1808-1812 г. В качестве свадебного подарка баллада посвящена племяннице Жуковского А. Протасовой. Стремление автора восполнить национальную русскую тем в поэзии увенчалось наибольшим успехом.",
-  "image": "Zhukovsky_Svetlana.jpg",
-  "file": "Zhukovsky_Svetlana.pdf",
-  "markReadFlag": false,
-  "genre": "Роман"
-}
-
-<> 2023-12-22T180957.200.json
+<> 2023-12-22T210746.200.json
 
 ###
 
@@ -302,73 +59,114 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "genre": "Мистика"
 }
 
-<> 2023-12-22T180954.200.json
+<> 2023-12-22T210737.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/login
 Content-Type: application/json
-Content-Length: 1365
+Content-Length: 43
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Эмигранты",
-  "author": "Алексей Толстой",
-  "rate": 1,
-  "description": "Основной темой в детективно-авантюрном романе «Эмигранты» стало разоблачение международной и русской контрреволюции. А.Н.Толстой с величайшим мастерством изобразил жизнь белоэмигрантского Парижа: членов императорской семьи, бывших нефтепромышленников, офицеров, женщин из высшего общества, стремящихся во что бы то ни стало вернуть прежнее богатство и положение. Написанный практически по горячим следам событий, роман содержит обширный материал личных впечатлений автора, который с большим умением сочетает в своих произведениях реализм и историчность с тонким психологизмом и яркой рельефностью характеров.",
-  "image": "Tolstoj_Emigranty.jpg",
-  "file": "Tolstoy_Emigranty.pdf",
-  "markReadFlag": false,
-  "genre": "Роман"
+  "name": "ttt",
+  "password": "123456"
 }
 
-<> 2023-12-22T180952.200.json
+<> 2023-12-22T210726.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/login
 Content-Type: application/json
-Content-Length: 1360
+Content-Length: 43
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Сон смешного человека",
-  "author": "Федор Достоевский",
-  "rate": 2,
-  "description": "«Сон смешного человека» – так называемый «фантастический рассказ», принадлежащий перу Достоевского. Слушая аудиокнигу с этим произведением, вы узнаете историю о молодом человеке, которого все считают смешным чудаком и не воспринимают его всерьез. Однажды во сне он попадает в идеальный мир, в котором нет никаких отрицательных черт, свойственных земному существованию – зависти, зла, ревности. Он начинает рассказывать жителям этого мира о том, какова жизнь на земле, и обо всех ее минусах, и через него в этот идеальный мир вселяются и злость, и зависть, и ревность, и все иное…",
-  "image": "Dostoevski_Son_smeshnogo_cheloveka.jpeg",
-  "file": "Dostoevski_Son_smeshnogo_cheloveka.pdf",
-  "markReadFlag": false,
-  "genre": "Классика"
+  "name": "ttt",
+  "password": "123456"
 }
 
-<> 2023-12-22T180950.200.json
+<> 2023-12-22T210634.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/login
 Content-Type: application/json
-Content-Length: 917
+Content-Length: 43
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Отелло",
-  "author": "Уильям Шекспир",
-  "rate": 3,
-  "description": "Полное название пьесы - «Отелло, венецианский мавр». Её сюжет основан на произведении Джиральди Чинтио «Венецианский мавр». История о любви, а самое главное, о ревности. О том всепоглощающем огне, который охватывает сердце всякого, кто страстно и безрассудно любит. О том, на что способен человек под воздействием этого дурманящего зелья, который попадает в состояние аффекта.",
-  "image": "Shakespeare_Othello.jpg",
-  "file": "Shakespeare_Othello.pdf",
-  "markReadFlag": false,
-  "genre": "Драма"
+  "name": "ttt",
+  "password": "123456"
 }
 
-<> 2023-12-22T180948.200.json
+<> 2023-12-22T210300.500.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "password": "123456"
+}
+
+<> 2023-12-22T210105.500.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "password": "123456"
+}
+
+<> 2023-12-22T210057.500.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "password": "123456"
+}
+
+<> 2023-12-22T205836.500.json
+
+###
+
+POST http://localhost:8081/user/1/book/1
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-22T205820.200.json
 
 ###
 
@@ -390,273 +188,27 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "genre": "Повесть"
 }
 
-<> 2023-12-22T180942.200.json
+<> 2023-12-22T205808.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/login
 Content-Type: application/json
-Content-Length: 1239
+Content-Length: 43
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Мастер и Маргарита",
-  "author": "Михаил Булгаков",
-  "rate": 2,
-  "description": "\"Мастер и Маргарита\" - итоговое произведение выдающегося отечественного прозаика и драматурга Михаила Афанасьевича Булгакова. \nОбещание, содержащееся на страницах книги - \"ваш роман вам принесет еще сюрпризы\", - оправдалось вполне: написанный Мастером провидческий роман о дьяволе, пожалуй, явился одной из самых загадочных, удивительных и самых читаемых книг XX столетия! Многие слова и выражения из этого произведения вошли в современный лексикон, а персонажи своею реальностью затмили действительно существующих граждан.",
-  "image": "Bulgakov_Master_i_Margarita.jpg",
-  "file": "Bulgakov_Master_i_Margarita.pdf",
-  "markReadFlag": false,
-  "genre": "Мистика"
+  "name": "ttt",
+  "password": "123456"
 }
 
-<> 2023-12-22T173645.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/1
-Content-Type: application/json
-Content-Length: 126
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "reviewText": "Я не читала!",
-  "rating": 5,
-  "reviewDate": "25.11.2023",
-  "userId": 3,
-  "userName": "dasha"
-}
-
-<> 2023-12-22T165837.200.json
+<> 2023-12-22T205758.200.json
 
 ###
 
 POST http://localhost:8081/user/registration
-Content-Type: application/json
-Content-Length: 77
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "dasha",
-  "registerDate": "11.12.2023",
-  "password": "123456"
-}
-
-<> 2023-12-22T165803.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/1
-Content-Type: application/json
-Content-Length: 178
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "reviewText": "Я Валя и Я не добавил имя в отзыв пупупу!",
-  "rating": 5,
-  "reviewDate": "25.11.2023",
-  "userId": 2,
-  "userName": "valyon"
-}
-
-<> 2023-12-22T165614.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/1
-Content-Type: application/json
-Content-Length: 149
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "reviewText": "Валя! Базаришь? Конечно!",
-  "rating": 1,
-  "reviewDate": "22.12.2023",
-  "userId": 1,
-  "userName": "daniel"
-}
-
-<> 2023-12-22T165114.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/15
-Content-Type: application/json
-Content-Length: 149
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "reviewText": "Валя! Базаришь? Конечно!",
-  "rating": 1,
-  "reviewDate": "22.12.2023",
-  "userId": 1,
-  "userName": "daniel"
-}
-
-<> 2023-12-22T165023.500.json
-
-###
-
-POST http://localhost:8081/user/registration
-Content-Type: application/json
-Content-Length: 78
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "daniel",
-  "registerDate": "2023-12-31",
-  "password": "123456"
-}
-
-<> 2023-12-22T164949.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 728
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Ревизор",
-  "author": "Николай Гоголь",
-  "rate": 3,
-  "description": "«Ревизор» — одна из лучших русских комедий. Н.В. Гоголь заставил современников смеяться над тем, к чему они привыкли и что перестали замечать. И сегодня комедия, созданная великим русским писателем, продолжая звучать современно, указывает путь к нравственному возрождению.",
-  "image": "Nikolai_Gogol_Revizor.jpg",
-  "file": "Gogol_Revizor.pdf",
-  "markReadFlag": false,
-  "genre": "Пьеса"
-}
-
-<> 2023-12-22T164922.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/15
-Content-Type: application/json
-Content-Length: 125
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "reviewText": "Валя! Базаришь? Конечно!",
-  "rating": 1,
-  "reviewDate": "22.12.2023",
-  "userId": 1
-}
-
-<> 2023-12-22T164512.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/15
-Content-Type: application/json
-Content-Length: 104
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "reviewText": "Привет, Даша",
-  "rating": 5,
-  "reviewDate": "22.12.2023",
-  "userId": 1
-}
-
-<> 2023-12-22T164423.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/15
-Content-Type: application/json
-Content-Length: 110
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "reviewText": "F{F{F{F{F{{F{F{F{F{F{F{F{F{F",
-  "rating": 3,
-  "reviewDate": "2023-12-22",
-  "userId": 2
-}
-
-<> 2023-12-22T164215.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/16
-Content-Type: application/json
-Content-Length: 110
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "reviewText": "F{F{F{F{F{{F{F{F{F{F{F{F{F{F",
-  "rating": 3,
-  "reviewDate": "2023-12-22",
-  "userId": 3
-}
-
-<> 2023-12-22T145546.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/16
-Content-Type: application/json
-Content-Length: 112
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "reviewText": "НУ КАПЕЦ ПРОЛСТО",
-  "rating": 5,
-  "reviewDate": "2023-12-31",
-  "userId": 3
-}
-
-<> 2023-12-22T132737.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/16
-Content-Type: application/json
-Content-Length: 99
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "reviewText": "ЖОПА ВАЛЯ",
-  "rating": 5,
-  "reviewDate": "2023-12-31",
-  "userId": 3
-}
-
-<> 2023-12-22T131817.200.json
-
-###
-
-POST http://localhost:8081/book/addReview/16
 Content-Type: application/json
 Content-Length: 90
 Connection: Keep-Alive
@@ -664,52 +216,40 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "reviewText": "епнр",
-  "rating": 1,
-  "reviewDate": "2023-12-31",
-  "userId": 3
+  "name": "ttt",
+  "registerDate": "11.12.2023",
+  "password": "123456",
+  "shelf": []
 }
 
-<> 2023-12-22T130340.200.json
+<> 2023-12-22T205735.200.json
 
 ###
 
-POST http://localhost:8081/user/registration
+POST http://localhost:8081/user/login
 Content-Type: application/json
-Content-Length: 81
+Content-Length: 43
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John Doe2",
-  "registerDate": "2023-12-31",
-  "password": "secret"
+  "name": "ttt",
+  "password": "123456"
 }
 
-<> 2023-12-22T130021.200.json
+<> 2023-12-22T204058.500.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/1/book/1
 Content-Type: application/json
-Content-Length: 1187
+Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "Первая любовь",
-  "author": "Иван Тургенев",
-  "rate": 0,
-  "description": "И.С. Тургенев – имя уникальное даже в золотой плеяде классиков русской прозы XIX века. Это писатель, чье безупречное литературное мастерство соотносится со столь же безупречным знанием человеческой души. Тургенев обогатил русскую литературу самыми пленительными женскими образами и восхитительными, поэтичными картинами природы. Произведения Тургенева; облекающие высокую суть в изящно-простую сюжетную форму, по-прежнему не подвластны законам времени – и по-прежнему читаются так, словно написаны вчера…",
-  "image": "Turgenev_Pervaya_lyubov.jpeg",
-  "file": "Turgenev_Pervaya_lyubov.pdf",
-  "markReadFlag": false,
-  "genre": "Повесть"
-}
-
-<> 2023-12-22T125924.200.json
+<> 2023-12-22T204039.200.json
 
 ###
 
@@ -723,7 +263,7 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 {
   "name": "Отелло",
   "author": "Уильям Шекспир",
-  "rate": 0,
+  "rate": 3,
   "description": "Полное название пьесы - «Отелло, венецианский мавр». Её сюжет основан на произведении Джиральди Чинтио «Венецианский мавр». История о любви, а самое главное, о ревности. О том всепоглощающем огне, который охватывает сердце всякого, кто страстно и безрассудно любит. О том, на что способен человек под воздействием этого дурманящего зелья, который попадает в состояние аффекта.",
   "image": "Shakespeare_Othello.jpg",
   "file": "Shakespeare_Othello.pdf",
@@ -731,271 +271,115 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "genre": "Драма"
 }
 
-<> 2023-12-22T125920.200.json
+<> 2023-12-22T204033.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/registration
 Content-Type: application/json
-Content-Length: 1360
+Content-Length: 90
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Сон смешного человека",
-  "author": "Федор Достоевский",
-  "rate": 0,
-  "description": "«Сон смешного человека» – так называемый «фантастический рассказ», принадлежащий перу Достоевского. Слушая аудиокнигу с этим произведением, вы узнаете историю о молодом человеке, которого все считают смешным чудаком и не воспринимают его всерьез. Однажды во сне он попадает в идеальный мир, в котором нет никаких отрицательных черт, свойственных земному существованию – зависти, зла, ревности. Он начинает рассказывать жителям этого мира о том, какова жизнь на земле, и обо всех ее минусах, и через него в этот идеальный мир вселяются и злость, и зависть, и ревность, и все иное…",
-  "image": "Dostoevski_Son_smeshnogo_cheloveka.jpeg",
-  "file": "Dostoevski_Son_smeshnogo_cheloveka.pdf",
-  "markReadFlag": false,
-  "genre": "Классика"
+  "name": "ttt",
+  "registerDate": "11.12.2023",
+  "password": "123456",
+  "shelf": []
 }
 
-<> 2023-12-22T125916.200.json
+<> 2023-12-22T204023.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/registration
 Content-Type: application/json
-Content-Length: 1365
+Content-Length: 90
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Эмигранты",
-  "author": "Алексей Толстой",
-  "rate": 0,
-  "description": "Основной темой в детективно-авантюрном романе «Эмигранты» стало разоблачение международной и русской контрреволюции. А.Н.Толстой с величайшим мастерством изобразил жизнь белоэмигрантского Парижа: членов императорской семьи, бывших нефтепромышленников, офицеров, женщин из высшего общества, стремящихся во что бы то ни стало вернуть прежнее богатство и положение. Написанный практически по горячим следам событий, роман содержит обширный материал личных впечатлений автора, который с большим умением сочетает в своих произведениях реализм и историчность с тонким психологизмом и яркой рельефностью характеров.",
-  "image": "Tolstoj_Emigranty.jpg",
-  "file": "Tolstoy_Emigranty.pdf",
-  "markReadFlag": false,
-  "genre": "Роман"
+  "name": "ttt",
+  "registerDate": "11.12.2023",
+  "password": "123456",
+  "shelf": []
 }
 
-<> 2023-12-22T125912.200.json
+<> 2023-12-22T203941.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+GET http://localhost:8081/user/1
 Content-Type: application/json
-Content-Length: 760
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-22T202116.200.json
+
+###
+
+GET http://localhost:8081/user/get/1
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-22T202008.404.json
+
+###
+
+GET http://localhost:8081/user/get/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-22T201940.404.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Светлана",
-  "author": "Василий Жуковский",
-  "rate": 0,
-  "description": "Наиболее известной балладой Жуковского является баллада 'Светлана', над которой поэт работал в 1808-1812 г. В качестве свадебного подарка баллада посвящена племяннице Жуковского А. Протасовой. Стремление автора восполнить национальную русскую тем в поэзии увенчалось наибольшим успехом.",
-  "image": "Zhukovsky_Svetlana.jpg",
-  "file": "Zhukovsky_Svetlana.pdf",
-  "markReadFlag": false,
-  "genre": "Роман"
+  "name": "ttt",
+  "password": "123456"
 }
 
-<> 2023-12-22T125907.200.json
+<> 2023-12-22T201744.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/login
 Content-Type: application/json
-Content-Length: 989
+Content-Length: 43
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Городок",
-  "author": "Шарлотта Бронте",
-  "rate": 2,
-  "description": "Роман известной английской писательницы Ш. Бронте (1816–1855) — это история молодой англичанки Люси Сноу, рано осиротевшей, оказавшейся в полном одиночестве, без средств к существованию. Героине приходится преодолеть много трудностей, столкнуться с лицемерием и несправедливостью, пережить тяжелые разочарования, утрату иллюзии и крушение надежд на счастье. В широком плане \"Городок\" — роман о становлении личности.",
-  "image": "Bronte_Villettejpg.jpg",
-  "file": "Bronte_Gorodok.pdf",
-  "markReadFlag": false,
-  "genre": "Роман"
+  "name": "ttt",
+  "password": "123456"
 }
 
-<> 2023-12-22T125901.200.json
+<> 2023-12-22T201646.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/1/book/1
 Content-Type: application/json
-Content-Length: 1997
+Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-{
-  "name": "Янки из Коннектикута при дворе короля Артура",
-  "author": "Марк Твен",
-  "rate": 0,
-  "description": "Роман Марка Твена, впервые опубликованный в 1889 году. Это ранний пример темы путешествий во времени в литературе, который вышел за 6 лет до «Машины времени» (1895) Герберта Уэллса. Роман в сатирическом духе высмеивает рыцарские романы о средневековье. Типичный янки из штата Коннектикут конца XIX века получает во время драки удар ломом по голове и теряет сознание. Очнувшись, он обнаруживает, что попал в эпоху и королевство британского короля Артура (VI в.), героя многих рыцарских романов. Предприимчивый янки немедленно находит место при дворе короля в качестве волшебника, потеснив старого Мерлина. Используя свои знания науки, техники и истории, он начинает преобразовывать британское общество по образцу современной ему Америки. Янки удается добиться больших успехов, прежде чем его «колдовская» деятельность вызывает активное противодействие церкви и рыцарства, и те объявляют ему войну.",
-  "image": "Twain_A_Connecticut_Yankee_in_King_Arthur’s_Court.jpg",
-  "file": "Twain_Yanki_iz_Konnektikuta_pri_dvore_korolya_Artura.pdf",
-  "markReadFlag": false,
-  "genre": "Приключения"
-}
-
-<> 2023-12-22T125856.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 1728
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Цыганы",
-  "author": "Александр Пушкин",
-  "rate": 0,
-  "description": "Поэма «Цыганы» была написана в 1824 году, является завершением романтического цикла произведений Пушкина. Время написания поэмы совпадает с очень важными событиями в жизни автора. Начатая на юге в январе 1824 года, поэма закончена в Михайловском 10 октября. В основу «Цыган», как и других «южных поэм», легли собственные наблюдения и впечатления поэта. Однако автобиографический элемент выступает здесь в новом качестве. Он проявляется в совмещении жизненных ситуаций автора и героя: странствования Пушкина с цыганским табором в Молдавии летом 1821 года становятся подосновой истории героя, что акцентируется совпадением имен (Александр-Алеко). Автобиографическое начало определяет характер лирического повествования: сходство мыслей поэта и героя — оба они отрицают «неволю душных городов», «оковы просвещенья».",
-  "image": "Pushkin_Egipetskie_nochi.jpg",
-  "file": "Pushkin_Tsygany.pdf",
-  "markReadFlag": false,
-  "genre": "Классика"
-}
-
-<> 2023-12-22T125851.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 979
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Полтава",
-  "author": "Александр Пушкин",
-  "rate": 0,
-  "description": "В поэме «Полтава» рассказывается о знаменательных событиях петровской эпохи, сыгравших важную роль в истории России. В центре поэмы стоит величественный образ Петра I. «Полтава» — восторженный гимн русскому императору, его творческому гению, его смелой личности. В поэме Пушкина Пётр противопоставлен и Карлу XII с его авантюристическими стремлениями к личной славе, и Мазепе с его корыстью и вероломством.",
-  "image": "Pushkin_Poltava.jpg",
-  "file": "Pushkin_Poltava.pdf",
-  "markReadFlag": false,
-  "genre": "Классика"
-}
-
-<> 2023-12-22T125847.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 578
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Школа",
-  "author": "Аркадий Гайдар",
-  "rate": 0,
-  "description": "В автобиографической повести знаменитого писателя Аркадия Гайдара описана школа жизни, мужества и становления характера, пройденная пятнадцатилетним мальчиком в революции и Гражданской войне.",
-  "image": "Gaidar_Shkola.jpg",
-  "file": "Gaidar_Shkola.pdf",
-  "markReadFlag": false,
-  "genre": "Повесть"
-}
-
-<> 2023-12-22T125844.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 667
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Остров сокровищ",
-  "author": "Роберт Льюис Стивенсон",
-  "rate": 0,
-  "description": "В руки юного Джима попадает карта знаменитого флибустьера Флинта. Джим и его друзья отправляются в опасное путешествие на поиски пиратского клада. На Острове Сокровищ им пришлось пережить опасные приключения.",
-  "image": "Treasure_Island_1911.jpg",
-  "file": "Stivenson_Ostrov_sokrovish.pdf",
-  "markReadFlag": false,
-  "genre": "Приключения"
-}
-
-<> 2023-12-22T125841.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 488
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Гамлет",
-  "author": "Уильям Шекспир",
-  "rate": 0,
-  "description": "Самая длинная пьеса Шекспира (в ней 4 042 строки и 29 551 слово), одна из самых известных его пьес, и одна из самых знаменитых пьес в мировой драматургии",
-  "image": "Hamlet.jpg",
-  "file": "Shakespeare_Hamlet.pdf",
-  "markReadFlag": false,
-  "genre": "Классика"
-}
-
-<> 2023-12-22T125835.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 806
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Сердца трех",
-  "author": "Джек Лондон",
-  "rate": 0,
-  "description": "Последний роман знаменитого американского писателя Джека Лондона (1876-1916) «Сердца трех» покоряет своим интригующим сюжетом и необыкновенным динамизмом действия. Лондон показал себя в этом произведении певцом Приключения, поэтом романтической любви, развертывающейся на фоне красочных, непривычных декораций.",
-  "image": "London_Hearts_of_three.jpg",
-  "file": "London_Serdtsa_treh.pdf",
-  "markReadFlag": false,
-  "genre": "Роман"
-}
-
-<> 2023-12-22T125832.200.json
-
-###
-
-POST http://localhost:8081/book/create
-Content-Type: application/json
-Content-Length: 644
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Дети капитана Гранта",
-  "author": "Жюль Верн",
-  "rate": 0,
-  "description": "Герои путешествуют по трем океанам, разыскивая потерпевшего кораблекрушение шотландского патриота — капитана Гранта. В произведении широко развернуты картины природы и жизни людей в различных частях света.",
-  "image": "Grant_Verne.jpg",
-  "file": "Zhul_Vern_Deti_kapitana_Granta.pdf",
-  "markReadFlag": false,
-  "genre": "Приключения"
-}
-
-<> 2023-12-22T125823.200.json
+<> 2023-12-22T201641.200.json
 
 ###
 
@@ -1009,7 +393,7 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 {
   "name": "Граф Монте-Кристо",
   "author": "Александр Дюма",
-  "rate": 0,
+  "rate": 3,
   "description": "«Граф Монте-Кристо», один из самых популярных романов Александра Дюма, имеет ошеломительный успех у читателей. Его сюжет автор почерпнул из архивов парижской полиции. Подлинная жизнь сапожника Франсуа Пико, ставшего прототипом Эдмона Дантеса, под пером настоящего художника превратилась в захватывающую книгу о мученике замка Иф и о парижском ангеле мщения.",
   "image": "graf_monte_cristo.jpg",
   "file": "Duma_Graf_Monte_Cristo.pdf",
@@ -1017,29 +401,396 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "genre": "Приключения"
 }
 
-<> 2023-12-22T125820.200.json
+<> 2023-12-22T201625.200.json
 
 ###
 
-POST http://localhost:8081/book/create
+POST http://localhost:8081/user/login
 Content-Type: application/json
-Content-Length: 728
+Content-Length: 43
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "Ревизор",
-  "author": "Николай Гоголь",
-  "rate": 0,
-  "description": "«Ревизор» — одна из лучших русских комедий. Н.В. Гоголь заставил современников смеяться над тем, к чему они привыкли и что перестали замечать. И сегодня комедия, созданная великим русским писателем, продолжая звучать современно, указывает путь к нравственному возрождению.",
-  "image": "Nikolai_Gogol_Revizor.jpg",
-  "file": "Gogol_Revizor.pdf",
-  "markReadFlag": false,
-  "genre": "Пьеса"
+  "name": "ttt",
+  "password": "123456"
 }
 
-<> 2023-12-22T125816.200.json
+<> 2023-12-22T201617.200.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "registerDate": "11.12.2023",
+  "password": "123456",
+  "shelf": []
+}
+
+<> 2023-12-22T201607.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "password": "123456"
+}
+
+<> 2023-12-22T201121.500.json
+
+###
+
+POST http://localhost:8081/user/1/book/1
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-22T201116.200.json
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 922
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Граф Монте-Кристо",
+  "author": "Александр Дюма",
+  "rate": 3,
+  "description": "«Граф Монте-Кристо», один из самых популярных романов Александра Дюма, имеет ошеломительный успех у читателей. Его сюжет автор почерпнул из архивов парижской полиции. Подлинная жизнь сапожника Франсуа Пико, ставшего прототипом Эдмона Дантеса, под пером настоящего художника превратилась в захватывающую книгу о мученике замка Иф и о парижском ангеле мщения.",
+  "image": "graf_monte_cristo.jpg",
+  "file": "Duma_Graf_Monte_Cristo.pdf",
+  "markReadFlag": false,
+  "genre": "Приключения"
+}
+
+<> 2023-12-22T201112.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "password": "123456"
+}
+
+<> 2023-12-22T201101.200.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "registerDate": "11.12.2023",
+  "password": "123456",
+  "shelf": []
+}
+
+<> 2023-12-22T201059.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "password": "123456"
+}
+
+<> 2023-12-22T194803.500.json
+
+###
+
+POST http://localhost:8081/user/1/book/1
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-22T194755.200.json
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 922
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Граф Монте-Кристо",
+  "author": "Александр Дюма",
+  "rate": 3,
+  "description": "«Граф Монте-Кристо», один из самых популярных романов Александра Дюма, имеет ошеломительный успех у читателей. Его сюжет автор почерпнул из архивов парижской полиции. Подлинная жизнь сапожника Франсуа Пико, ставшего прототипом Эдмона Дантеса, под пером настоящего художника превратилась в захватывающую книгу о мученике замка Иф и о парижском ангеле мщения.",
+  "image": "graf_monte_cristo.jpg",
+  "file": "Duma_Graf_Monte_Cristo.pdf",
+  "markReadFlag": false,
+  "genre": "Приключения"
+}
+
+<> 2023-12-22T194747.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "password": "123456"
+}
+
+<> 2023-12-22T194740.200.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "registerDate": "11.12.2023",
+  "password": "123456",
+  "shelf": []
+}
+
+<> 2023-12-22T194736.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "password": "123456"
+}
+
+<> 2023-12-22T194444.500.json
+
+###
+
+POST http://localhost:8081/user/1/book/1
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-22T194438.200.json
+
+###
+
+POST http://localhost:8081/book/create
+Content-Type: application/json
+Content-Length: 922
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Граф Монте-Кристо",
+  "author": "Александр Дюма",
+  "rate": 3,
+  "description": "«Граф Монте-Кристо», один из самых популярных романов Александра Дюма, имеет ошеломительный успех у читателей. Его сюжет автор почерпнул из архивов парижской полиции. Подлинная жизнь сапожника Франсуа Пико, ставшего прототипом Эдмона Дантеса, под пером настоящего художника превратилась в захватывающую книгу о мученике замка Иф и о парижском ангеле мщения.",
+  "image": "graf_monte_cristo.jpg",
+  "file": "Duma_Graf_Monte_Cristo.pdf",
+  "markReadFlag": false,
+  "genre": "Приключения"
+}
+
+<> 2023-12-22T194425.200.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "registerDate": "11.12.2023",
+  "password": "123456",
+  "shelf": []
+}
+
+<> 2023-12-22T194417.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "password": "123456"
+}
+
+<> 2023-12-22T193925.500.json
+
+###
+
+POST http://localhost:8081/user/7/book/7
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-22T193919.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "password": "123456"
+}
+
+<> 2023-12-22T193906.200.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ttt",
+  "registerDate": "11.12.2023",
+  "password": "123456",
+  "shelf": []
+}
+
+<> 2023-12-22T193903.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ggg",
+  "password": "123456"
+}
+
+<> 2023-12-22T193629.500.json
+
+###
+
+POST http://localhost:8081/user/6/book/1
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-22T193615.200.json
+
+###
+
+POST http://localhost:8081/user/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ggg",
+  "password": "123456"
+}
+
+<> 2023-12-22T193605.200.json
+
+###
+
+POST http://localhost:8081/user/registration
+Content-Type: application/json
+Content-Length: 90
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ggg",
+  "registerDate": "11.12.2023",
+  "password": "123456",
+  "shelf": []
+}
+
+<> 2023-12-22T193558.200.json
 
 ###
 

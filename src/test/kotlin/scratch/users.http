@@ -3,9 +3,10 @@ POST http://localhost:8081/user/registration
 Content-Type: application/json
 
 {
-  "name": "dasha",
+  "name": "ttt",
   "registerDate": "11.12.2023",
-  "password": "123456"
+  "password": "123456",
+  "shelf": []
 }
 
 ###
@@ -13,9 +14,13 @@ POST http://localhost:8081/user/login
 Content-Type: application/json
 
 {
-  "name": "kisa",
+  "name": "ttt",
   "password": "123456"
 }
+
+###
+GET http://localhost:8081/user/1
+Content-Type: application/json
 
 ###
 POST http://localhost:8081/book/addReview/1
@@ -37,5 +42,5 @@ Content-Type: application/json
 
 }
 ###
-POST http://localhost:8081/user/102/book/16
+POST http://localhost:8081/user/1/book/2
 Content-Type: application/json

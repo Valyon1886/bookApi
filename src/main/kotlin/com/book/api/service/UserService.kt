@@ -23,7 +23,7 @@ class UserService (private val userRepository: UserRepository, private val deskS
     fun save(user: User) {
         // Шифрование пароля в SHA-256
         user.password = DigestUtils.sha256Hex(user.password)
-        val desk = deskService.add(DeskOfBook(null))
+        val desk = deskService.add(DeskOfBook(mutableListOf()))
         var temp_desk =
         user.shelf?.add(desk)
         userRepository.save(user)
@@ -51,23 +51,24 @@ class UserService (private val userRepository: UserRepository, private val deskS
         return "OK"//Response.isOk();  //  TODO Сделать через json
     }
 
-    fun addBookToDeskById(userId: Long, bookId: Long): Book{
+    fun addBookToDeskById(userId: Long, bookId: Long): User{
         var updateUser = userRepository.findByIdOrNull(userId)
         var book = bookService.findBook(bookId)
+        var desks = updateUser?.shelf
+        println(updateUser)
+        println(book)
+        println(desks)
         if(updateUser!=null) {
-            var newDesks:MutableList<DeskOfBook>? = updateUser.shelf
-            var userDesk = newDesks!!.get(0)
-            if (userDesk != null) {
-                var desk: DeskOfBook = deskService.addBookToDesk(userDesk.id!!, book)
-                deskService.updateDesk(userDesk.id!!, desk)
-                newDesks.set(0, desk)
+            desks?.forEach { desk ->
+                desk.books?.add(book)
             }
-            updateUser.shelf = newDesks
+            println(desks)
+            updateUser.shelf = desks
             userRepository.save(updateUser)
         } else{
             throw NoUserException("ПОЛЬЗОВАТЕЛЬ С ТАКИМ ID ($userId) НЕ НАЙДЕН");
         }
-        return book;
+        return updateUser;
     }
 
     fun findUser(id: Long): User? = userRepository.findByIdOrNull(id)
