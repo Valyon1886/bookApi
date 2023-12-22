@@ -41,9 +41,10 @@ class BookService(private val bookRepository: BookRepository, private val review
             var newReviews:MutableList<Review>? = it.reviews
             if (newReviews != null) {
                 reviewService.add(review)
-                newReviews.add(review)
+                it.reviews!!.add(review)
             }
-            it.reviews = newReviews
+
+
             it.rate = if (it.reviews!=null) ((it.reviews!!.sumOf { it.rating }) / it.reviews!!.size).toInt() else review.rating
             bookRepository.save(it)
         }.orElseThrow { EntityNotFoundException("Book not found with id $id") }
